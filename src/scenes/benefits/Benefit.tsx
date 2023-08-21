@@ -19,19 +19,19 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
     // 边框
     <motion.div
       variants={childVariant}
-      className="mt-5 rounded-md border-2 border-gray-100 px-5 py-16 text-center"
+      className="mt-5 rounded-md border-2 border-gray-20 px-5 py-16 text-center"
     >
       {/* 边框内容物 */}
       <div className="mb-4 flex justify-center">
         {/* 圆形标志 */}
-        <div className="rounded-full border-2 border-gray-100 bg-primary-100 p-4">
+        <div className="rounded-full border-2 border-gray-20 bg-primary-100 p-4">
           {icon}
         </div>
       </div>
       {/* <h4 className="font-bold">{title}</h4> */}
-      <p className="my-3">{title}</p>
+      <p className="my-3 text-gray-20">{title}</p>
 
-      <p className="my-3">{description}</p>
+      <p className="my-3 text-gray-20">{description}</p>
 
       <AnchorLink
         className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"

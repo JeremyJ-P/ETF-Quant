@@ -10,33 +10,33 @@ import HText from "@/shared/HText";
 import Class from "./Class";
 const classes: Array<ClassType> = [
   {
-    name: "管流自相似解分区",
+    name: "案例一",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image1,
   },
   {
-    name: "壁湍流标度律数据整合",
+    name: "案例二",
     image: image2,
   },
   {
-    name: "冲击式水轮机水斗优化",
+    name: "案例三",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image3,
   },
   {
-    name: "浸没颗粒",
+    name: "案例四",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image4,
   },
   {
-    name: "热盐储能工程优化",
+    name: "案例五",
     image: image5,
   },
   {
-    name: "不确定性定量化",
+    name: "案例六",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image6,

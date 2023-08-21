@@ -14,19 +14,19 @@ import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
-    title: "自研噪声抑制算法",
+    title: "不确定性定量化数据整合",
     description:
       "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "不确定性定量化数据整合",
+    title: "植根于ETF的天然光滑属性",
     description:
       "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "数字融合物理世界",
+    title: "风险控制高于一切",
     description:
       "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
   },
@@ -46,7 +46,7 @@ type Props = {
 
 const Benefits = ({ setSelectedPage }: Props) => {
   return (
-    <section id="benefits" className="mx-auto min-h-full w-5/6 py-20">
+    <section id="benefits" className=" mx-auto min-h-full w-5/6 py-20">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
       >
@@ -62,9 +62,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
           }}
           className="md:my-5 md:w-3/5"
         >
-          <HText>不仅仅是数据分析平台</HText>
-          <p className="my-5 text-sm">
-            我们集成了数据分析，数据整合，不确定性定量化等多种自研技术，全方位服务工程科学。
+          <HText>不仅仅是量化分析平台</HText>
+          <p className="my-5 text-sm text-gray-20">
+            我们集成了量化分析，标的评级，定制化理财组合等多种自研技术，全方位理智服务。
           </p>
         </motion.div>
         {/* 优势部分 */}
@@ -126,7 +126,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <p className="my-5">
+              <p className="my-5 text-gray-20">
                 Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
                 egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
                 fames vitae vitae quis. Quis amet vulputate tincidunt at in
@@ -134,7 +134,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
                 Felis orci diam odio.
               </p>
-              <p className="mb-5">
+              <p className="mb-5 text-gray-20">
                 Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
                 tellus quam porttitor. Mauris velit euismod elementum arcu neque
                 facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
